@@ -1,2 +1,2 @@
 # valentinne
-pagina para a marca de roupas femininas
+pagina para a loja de roupas femininas
