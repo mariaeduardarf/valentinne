@@ -3,7 +3,7 @@
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #402801;
+    --fundo-menu-lateral: #52360c;
     --fundo-claro: #a6afb4;
     --fundo-escuro: #e0bf8b;
 
@@ -11,15 +11,15 @@
     --borda-escura: #6b4b00;
 
     --texto-escuro: #161616;
-    --texto-claro: #c8d4db;
+    --texto-claro: #a66107;
     --texto-branco: #ecf8ff;
-    --texto-hover: #7d4b11be;
+    --texto-hover: #835a2bbe;
     --texto-opaco: #81888c;
 
     --cor-detalhes: #c5a46f;
 
-    --texto-titulo-claro: #473920;
-    --texto-titulo-escuro: #281d03;
+    --texto-titulo-claro: #514227;
+    --texto-titulo-escuro: #2e2309;
 
     --sombra-clara: rgba(255, 255, 255, 1);
     --sombra-escura: rgba(31, 31, 31, 0.1);
@@ -179,5 +179,16 @@ a {
     font-weight: 600;
 
 }
+
+/* HERO */
+#hero {
+    width: 100%;
+    height:  100vh; /*view Port Height */
+    background: url("../img/bg-hero.png"); /* criar img na I.A. */
+    background-size: cover;
+    position: relative;
+}
+
+/* Estrutura Base - Corpo */
 
 
