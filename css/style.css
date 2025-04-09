@@ -3,23 +3,23 @@
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #52360c;
+    --fundo-menu-lateral: #533200;
     --fundo-claro: #a6afb4;
     --fundo-escuro: #e0bf8b;
 
-    --borda-clara: #775c19;
-    --borda-escura: #6b4b00;
+    --borda-clara: #87691b;
+    --borda-escura: #725410;
 
     --texto-escuro: #161616;
-    --texto-claro: #a66107;
+    --texto-claro: #241201;
     --texto-branco: #ecf8ff;
-    --texto-hover: #835a2bbe;
+    --texto-hover: #25190abe;
     --texto-opaco: #81888c;
 
     --cor-detalhes: #c5a46f;
 
     --texto-titulo-claro: #514227;
-    --texto-titulo-escuro: #2e2309;
+    --texto-titulo-escuro: #241b07;
 
     --sombra-clara: rgba(255, 255, 255, 1);
     --sombra-escura: rgba(31, 31, 31, 0.1);
@@ -184,9 +184,46 @@ a {
 #hero {
     width: 100%;
     height:  100vh; /*view Port Height */
-    background: url("../img/bg-hero.png"); /* criar img na I.A. */
+    background: url("../img/bg-hero.jpg") center; /* criar img na I.A. */
     background-size: cover;
     position: relative;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    background-color: rgba(35, 24, 24, 0.5);
+
+}
+
+#hero .hero-container {
+    z-index: 3;
+    position: relative;
+    min-width: 300px;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+}
+
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+#hero p span {
+    color: #1e1506;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #1e1506;
 }
 
 /* Estrutura Base - Corpo */
