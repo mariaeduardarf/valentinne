@@ -133,11 +133,27 @@ a {
 }
 
 /* Ajuste para o Corpo do Conteúdo */
+/* Estrutura Base - Corpo */
+#main {
+    margin-left: 300px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* menu responsivo */
 @media (max-width: 1199px) {
     #header {
         left: -300px;
+    }
+    #main{
+        margin-left: 0;
+    }
+    .container{
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
 
@@ -245,7 +261,7 @@ a {
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 90px;
+        font-size: 70px;
         line-height: 1;
         margin-bottom: 20px;
     }
@@ -254,20 +270,6 @@ a {
         font-size: 28px;
     }
     
-}
-
-
-
-
-/* Estrutura Base - Corpo */
-
-#main {
-    margin-left: 300px;
-}
-
-.container {
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 /* Seções e Titulos*/
@@ -321,5 +323,24 @@ section {
 .sobre .content ul {
     list-style: none;
     padding: 0;
+}
+
+.sobre .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sobre .content ul strong {
+   font-weight: 600;
+   margin-right: 5px;
+    font-family: "Poppins, sans-serif";
+}
+
+.sobre .content ul i {
+    color: var( --fundo-menu-lateral);
+    margin-right: 10px;
+    font-size: 20px;
 }
 
