@@ -241,10 +241,10 @@ a {
 }
 
 #hero p span {
-    color: #7b5b09;
+    color: #82600a;
     padding-bottom: 4px;
     letter-spacing: 2px;
-    border-bottom: 3px solid #1e1506;
+    border-bottom: 3px solid #36270d;
 }
 
 @media (min-width: 1024px) {
@@ -281,7 +281,7 @@ section {
 
 .section-bg {
     /* escura */
-    background: #241201;
+    background: #7d3f04;
     color: var(--texto-claro);
 }
 
@@ -315,7 +315,7 @@ section {
 
 /*Sobre*/
 .sobre .content h3 {
-    color: #120a02;
+    color: #331c04;
     font-weight: 700;
     font-size: 26px;
 }
@@ -362,7 +362,7 @@ section {
     line-height: 0px;
 }
 
-.conquitas .count-box span {
+.conquistas .count-box span {
     font-size: 48px;
     color: var(--fundo-menu-lateral);
     display: block;
@@ -371,10 +371,10 @@ section {
     margin-left: 60px;
 }
 
-.conquitas .count-box p {
+.conquistas .count-box p {
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
-    color: #241201;
+    color: #1f1206;
 }
 
 .conquistas .count-box strong {
@@ -386,4 +386,42 @@ section {
     transition: ease-in-out .5s;
 
 }
+
+/* vendas // skills = habilidades */
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    display: block;
+    color: var(--fundo-escuro);
+    font-family: var(--borda-clara);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.skills .progress .skil .val {
+    font-style: normal;
+    float: right;
+    color: #907f5f;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.skills .progress-bar-bg {
+    background: #957848;
+    height: 10px;
+}
+
+
+
+
+
+
 
