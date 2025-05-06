@@ -64,7 +64,7 @@
   /*Função Waypoints */
   // JS para Skills = Habilidades ou Vendas
   
-  let skilsContent = select('.shkills-content');
+  let skilsContent = select('.skills-content');
   if (skilsContent) { // verifica o elemento existe 
     new Waypoint ({ //cria uma instancia 
         element: skilsContent,

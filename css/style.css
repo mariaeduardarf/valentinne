@@ -281,7 +281,7 @@ section {
 
 .section-bg {
     /* escura */
-    background: #7d3f04;
+    background: #5f3105;
     color: var(--texto-claro);
 }
 
@@ -420,7 +420,12 @@ section {
 }
 
 
-
+.skills .progress-bar {
+    height: 10px;
+    background: #241b07;
+    transition: 5s;
+    width: 1px;
+}
 
 
 
