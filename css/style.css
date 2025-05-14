@@ -6,25 +6,25 @@
 /*variavel para as cores*/
 :root {
 
-    --background-color: rgba(5, 13, 24, 0.555);
+    --background-color: rgb(0, 1, 2);
 
-    --fundo-menu-lateral: #533200;
+    --fundo-menu-lateral: #23022e;
     --fundo-claro: #a6afb4;
-    --fundo-escuro: #e0bf8b;
+    --fundo-escuro: #efb1e5;
 
-    --borda-clara: #87691b;
-    --borda-escura: #725410;
+    --borda-clara: #64065c;
+    --borda-escura: #29242b;
 
-    --texto-escuro: #161616;
-    --texto-claro: #241201;
+    --texto-escuro: #000000;
+    --texto-claro: #692a6e;
     --texto-branco: #ecf8ff;
-    --texto-hover: #25190abe;
+    --texto-hover: #37084dbe;
     --texto-opaco: #81888c;
 
-    --cor-detalhes: #c5a46f;
+    --cor-detalhes: #8d6fc5;
 
-    --texto-titulo-claro: #514227;
-    --texto-titulo-escuro: #241b07;
+    --texto-titulo-claro: #371351;
+    --texto-titulo-escuro: #40005c;
 
     --sombra-clara: rgba(255, 255, 255, 1);
     --sombra-escura: rgba(31, 31, 31, 0.1);
@@ -241,10 +241,10 @@ a {
 }
 
 #hero p span {
-    color: #82600a;
+    color: #29013c;
     padding-bottom: 4px;
     letter-spacing: 2px;
-    border-bottom: 3px solid #36270d;
+    border-bottom: 3px solid #340059;
 }
 
 @media (min-width: 1024px) {
@@ -276,12 +276,12 @@ a {
 section {
     padding: 60px 0;
     overflow: hidden;
-    background: #5c4c3abb;
+    background: #7a7272bb;
 }
 
 .section-bg {
     /* escura */
-    background: #5f3105;
+    background: #3d313d;
     color: var(--texto-claro);
 }
 
@@ -301,7 +301,7 @@ section {
 .section-title h2::after {
     content: "";
     position: absolute;
-    background: #513b17;
+    background: #33013e;
     width: 50px;
     height: 3px;
     display: block;
@@ -315,7 +315,7 @@ section {
 
 /*Sobre*/
 .sobre .content h3 {
-    color: #331c04;
+    color: #390841;
     font-weight: 700;
     font-size: 26px;
 }
@@ -374,7 +374,7 @@ section {
 .conquistas .count-box p {
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
-    color: #1f1206;
+    color: #54027d;
 }
 
 .conquistas .count-box strong {
@@ -409,20 +409,20 @@ section {
 .skills .progress .skil .val {
     font-style: normal;
     float: right;
-    color: #907f5f;
+    color: #450390;
     font-weight: 800;
     font-size: 16px;
 }
 
 .skills .progress-bar-bg {
-    background: #957848;
+    background: #8c5ba9;
     height: 10px;
 }
 
 
 .skills .progress-bar {
     height: 10px;
-    background: #241b07;
+    background: #1e0127;
     transition: 5s;
     width: 1px;
 }
