@@ -85,12 +85,28 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item'
-      })
+      });
+       
+
+      // selecionar todas as listas 
       let portfolioFilters = select('#portfolio-filters li', true);
+
+      on('click', '#portfolio-filters li', function(e) {
+         e.preventDefault();
+         portfolioFilters.forEach(function(el) {
+           el.classList.remove('filter-active');
+         });
+         this.classList.add('filter-active');
+
+         portfolioIsotope.arrange({
+             filter: this.getAttribute('data-filter')
+         });
+         
+
+      }, true);
     }
 
-  });
+  }); 
 
-  
-
+ 
  })()
